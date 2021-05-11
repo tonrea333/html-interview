@@ -165,7 +165,7 @@ We'll create a section on the page for each student's answers.
     <div>
     <h1>Readus</h1>
     <h4><a href="https://github.com/hartr117">Readus's github</a></h4>
-    <input type="image" src="image_3459.jpeg" alt="myPic" height="250px"/>
+    <input type="image" src="image/image_3459.jpeg" alt="myPic" height="250px"/>
         <ol>
             <li><b>What is your favorite food?</b>
                 <ul>
