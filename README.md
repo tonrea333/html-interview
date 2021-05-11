@@ -22,6 +22,8 @@ Have each person answer the ten questions. Write down both the questions and the
 
 #### Part 2: Building an HTML page
 
+
+
 Now that you have all the questions and answers, its time to display them in HTML. 
 
 We'll create a section on the page for each student's answers.
@@ -35,3 +37,187 @@ We'll create a section on the page for each student's answers.
   * And finally, create an ordered list that contains a list item for each question and answer
     * Each question and answer should be stored in a single list item element (`<li>`)
     * The question part of the list item should be bolded
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview</title>
+</head>
+<body>
+    <div>
+    <h1>Ben(Ban)</h1>
+    <h4><a href="https://github.com/banjman81">Ben's github</a></h4>
+    <input type="image" src="/images/IMG_3156.jpg" alt="myPic" height="250px"/>
+        <ol>
+            <li><b>What is your favorite food?</b>
+                <ul>
+                    <li>Poke Bowl and Ramen</li>
+                </ul>
+            </li>
+            <li><b>How old are you?</b>
+                <ul>
+                    <li>24</li>
+                </ul>
+            </li>
+            <li><b>Where are you from?</b>
+                <ul>
+                    <li>Myanmar</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite movie?</b>
+                <ul>
+                    <li>all of MCU</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite animal?</b>
+                <ul>
+                    <li>Badgers</li>
+                </ul>
+            </li>
+            <li><b>What hobbies do you enjoy?</b>
+                <ul>
+                    <li>Video Game</li>
+                </ul>
+            </li>
+            <li><b>What was the last place you visited?</b>
+                <ul>
+                    <li>Oahu Hawaii</li>
+                </ul>
+            </li>
+            <li><b>Have you ever own a pet?</b>
+                <ul>
+                    <li>Yes, dog, cat and snake.</li>
+                </ul>
+            </li>
+            <li><b>What is your goal after this course?</b>
+                <ul>
+                    <li>Be the nect Elon Musk.</li>
+                </ul>
+            </li>
+            <li><b>Who is your favorite celebrity?</b>
+                <ul>
+                    <li>Elon Musk</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+    <h1>Jacques</h1>
+    <h4><a href="https://github.com/jacquesjg">Jacques's github</a></h4>
+    <input type="image" src="" alt="myPic" height="250px"/>
+        <ol>
+            <li><b>What is your favorite food?</b>
+                <ul>
+                    <li>Pizza.</li>
+                </ul>
+            </li>
+            <li><b>How old are you?</b>
+                <ul>
+                    <li>27</li>
+                </ul>
+            </li>
+            <li><b>Where are you from?</b>
+                <ul>
+                    <li>Brooklyn, NY</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite movie?</b>
+                <ul>
+                    <li>Shawshank Redemption</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite animal?</b>
+                <ul>
+                    <li>Tiger</li>
+                </ul>
+            </li>
+            <li><b>What hobbies do you enjoy?</b>
+                <ul>
+                    <li>Language learning (human language)</li>
+                </ul>
+            </li>
+            <li><b>What was the last place you visited?</b>
+                <ul>
+                    <li>London</li>
+                </ul>
+            </li>
+            <li><b>Have you ever own a pet?</b>
+                <ul>
+                    <li>Yes, dogs</li>
+                </ul>
+            </li>
+            <li><b>What is your goal after this course?</b>
+                <ul>
+                    <li>Digital nomad</li>
+                </ul>
+            </li>
+            <li><b>Who is your favorite celebrity?</b>
+                <ul>
+                    <li>Leonel Messi</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+    <div>
+    <h1>Readus</h1>
+    <h4><a href="https://github.com/hartr117">Readus's github</a></h4>
+    <input type="image" src="image_3459.jpeg" alt="myPic" height="250px"/>
+        <ol>
+            <li><b>What is your favorite food?</b>
+                <ul>
+                    <li>Pizza</li>
+                </ul>
+            </li>
+            <li><b>How old are you?</b>
+                <ul>
+                    <li>44</li>
+                </ul>
+            </li>
+            <li><b>Where are you from?</b>
+                <ul>
+                    <li>Indiana</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite movie?</b>
+                <ul>
+                    <li>Dune</li>
+                </ul>
+            </li>
+            <li><b>What is you favorite animal?</b>
+                <ul>
+                    <li>Wildebeest</li>
+                </ul>
+            </li>
+            <li><b>What hobbies do you enjoy?</b>
+                <ul>
+                    <li>Surf Internet</li>
+                </ul>
+            </li>
+            <li><b>What was the last place you visited?</b>
+                <ul>
+                    <li>Kentucky</li>
+                </ul>
+            </li>
+            <li><b>Have you ever own a pet?</b>
+                <ul>
+                    <li>No</li>
+                </ul>
+            </li>
+            <li><b>What is your goal after this course?</b>
+                <ul>
+                    <li>Work from home</li>
+                </ul>
+            </li>
+            <li><b>Who is your favorite celebrity?</b>
+                <ul>
+                    <li>Clint Eastwood</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
